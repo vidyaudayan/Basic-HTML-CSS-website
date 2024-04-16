@@ -36,7 +36,7 @@
   padding-left: 100px;
 }
 
-ul {
+ul{
   float: left;
   display: flex;
   justify-content: center;
@@ -48,17 +48,14 @@ ul li {
   margin-top: 25px;
   font-size: 14px;
 }
-ul li a {
+ul li a{
   text-decoration: none;
   color: rgb(244, 238, 238);
   font-family: Arial;
   font-weight: bold;
   transition: 0.4s ease-in-out;
-  cursor: pointer;
 }
-ul li a:hover {
-  color: rgb(231, 107, 73);
-}
+
 
 .search {
   width: 300px;
@@ -171,6 +168,10 @@ ul li a:hover {
   border-radius: 10px;
   margin: 2px;
   padding: 8px;
+  cursor: pointer;
+}
+.form h2:hover{
+    background-color: rgb(226, 140, 100);
 }
 
 .form input {
@@ -211,7 +212,7 @@ ul li a:hover {
   transition: 0.4s;
 }
 .bt:hover {
-  background: white;
+  background: rgb(230, 68, 68);
 }
 .bt a {
   text-decoration: none;
